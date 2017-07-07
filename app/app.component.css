@@ -1,0 +1,15 @@
+li {
+    font-size: large;
+}
+
+div.panel-heading {
+    font-size: x-large;
+}
+
+div.outer-shell {
+	background-color: #69bc6c;
+}
+
+body {
+	background-color: #69bc6c;
+}

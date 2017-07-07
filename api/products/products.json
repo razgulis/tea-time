@@ -1,0 +1,42 @@
+[
+    {
+        "teaId": 0,
+        "teaName": "Earl Grey",
+        "teaType": "Black",
+        "teaDescription": "Smooth black tea, with a touch of pergamont.  Perfect for those dreary days.",
+        "teaRating": 3.6,
+        "teaRatingVotes": 10,
+        "teaAvailability": true,
+        "imageUrl": "https://openclipart.org/image/64px/svg_to_png/170033/jubilee-teapot-red.png"
+    },
+    {
+        "teaId": 1,
+        "teaName": "Pearl Dragon Jasmine",
+        "teaType": "Jasmine",
+        "teaDescription": "Top shelf jasmine tea.  More interesting to look at than drink.",
+        "teaRating": 5.0,
+        "teaRatingVotes": 20,
+        "teaAvailability": false,
+        "imageUrl": "https://openclipart.org/image/64px/svg_to_png/170029/jubilee-teapot.png"
+    },
+    {
+        "teaId": 2,
+        "teaName": "Peasant Green",
+        "teaType": "Green",
+        "teaDescription": "Green tea with roasted rice for that extra peasanty flavor.",
+        "teaRating": 2.0,
+        "teaRatingVotes": 3,
+        "teaAvailability": true,
+        "imageUrl": "https://openclipart.org/image/64px/svg_to_png/170033/jubilee-teapot-red.png"
+    },
+    {
+        "teaId": 3,
+        "teaName": "Jesebelle",
+        "teaType": "Oolong",
+        "teaDescription": "Scandalously delicious oolong tea.  Auromas of mischief and infidelity.",
+        "teaRating": 2.8,
+        "teaRatingVotes": 17,
+        "teaAvailability": true,
+        "imageUrl": "https://openclipart.org/image/64px/svg_to_png/170029/jubilee-teapot.png"
+    }
+]

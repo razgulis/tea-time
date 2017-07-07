@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns": [
+				"node_modules",
+				"typings"
+			],
+			"path": ".",
+			"file_exclude_patterns": [
+				"*.js.map",
+				"*.js"
+			]
+		}
+	],
+	"trim_trailing_white_space_on_save": true
+}

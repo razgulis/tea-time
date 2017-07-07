@@ -1,0 +1,433 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"deal_",
+				"deal_demand_source_type"
+			],
+			[
+				"Dea",
+				"DEAL_HISTORY"
+			],
+			[
+				"platfrom_ad",
+				"platform_ad_id_hash"
+			],
+			[
+				"publisher_ad",
+				"PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY"
+			],
+			[
+				"repo",
+				"REPORTING"
+			],
+			[
+				"PUBLI",
+				"PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 257,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/products/product-list.component.ts",
+			"settings":
+			{
+				"buffer_size": 1750,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "export interface ITea {\n\tteaId: number;\n\tteaName: string;\n\tteaType: string;\n\tteaDescription: string;\n\tteaRating: number; \n\tteaRatingVotes: number;\n\tteaAvailability: boolean;\n\timageUrl: string;\n}\n\nexport class Tea implements ITea {\n\n\tconstructor(public teaId: number,\n\t\t\t\tpublic teaName: string,\n\t\t\t\tpublic teaType: string,\n\t\t\t\tpublic teaDescription: string,\n\t\t\t\tpublic teaRating: number,\n\t\t\t\tpublic teaRatingVotes: number,\n\t\t\t\tpublic teaAvailability: boolean,\n\t\t\t\tpublic imageUrl: string) {\n\n\t}\n\n\tupvoteReorder() {\n\n\t}\n\n}",
+			"file": "app/products/product.ts",
+			"file_size": 521,
+			"file_write_time": 131398751820000000,
+			"settings":
+			{
+				"buffer_size": 521,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/products/product-list.component.html",
+			"settings":
+			{
+				"buffer_size": 1288,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sql",
+				"SQLExec: List connections"
+			],
+			[
+				"list",
+				"SQLExec: List connections"
+			],
+			[
+				"sql ",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"SetSyntax: s",
+				"Set Syntax: SQL"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pi ",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/srazgulin/pluralsight/Angular2-GettingStarted/APM - Start",
+		"/Users/srazgulin/pluralsight/Angular2-GettingStarted/APM - Start/app"
+	],
+	"file_history":
+	[
+		"/Users/srazgulin/pluralsight/Angular2-GettingStarted/APM - Start/HappyTeaTime.sublime-project",
+		"/Users/srazgulin/pluralsight/Angular2-GettingStarted/APM - Start/app/app.module.ts",
+		"/Users/srazgulin/Downloads/Traffic_Report__today.csv",
+		"/Users/srazgulin/Downloads/Traffic_Report__today (1).csv",
+		"/Users/srazgulin/repoman/repositories/releases/HEAD/tag_pricing/CPC3.TAG.update.sql"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Product List",
+			"locale",
+			"sep",
+			"advertiser-report",
+			"us",
+			"start_time_requested",
+			"compressed",
+			"SELECT DISTINCT deal_id\n\tFROM CPC3.DEAL_HISTORY\n\tWHERE deal_id != 'spotx'\n\tLIMIT 10",
+			"config_filename",
+			"review_enabled",
+			"username",
+			"publisher_ad_bid_activity",
+			"publisher_deal",
+			"publisher_bid",
+			"publisher_id_bid",
+			"published_bid",
+			"published_ad_bid",
+			"cpc3.ad",
+			"spotx",
+			"SELECT\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_ad_id_hash,\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id,\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.publisher_id,\n    GROUP_CONCAT(DISTINCT PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.deal_id) AS deals,\n    PUBLISHER_AD_REVIEW.status,\n    PUBLISHER_AD_REVIEW.status_reason,\n    PUBLISHER_AD_REVIEW.status_comments,\n    AD.platform_ad_id,\n    IF(PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id = 1, 0, AD.advertiser_id) AS demand_partner_id,\n    AD.status AS ad_status,\n    IF(PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id = 1, 'SpotX', ADVERTISER.advertiser_name) AS demand_partner_name,\n    SEAT.seat_name,\n    MAX(PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.date) AS date,\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.timezone,\n    MAX(PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.modified_date) AS modified_date\nFROM REPORTING.PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY\n\nLEFT JOIN CPC3.AFFILIATE_CONF AS RTB_QUARANTINED ON (\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.publisher_id = RTB_QUARANTINED.affiliate_id\n    AND\n    RTB_QUARANTINED.element = 'rtb_quarantine'\n)\nINNER JOIN CPC3.AD USE INDEX(ad_review) ON (\n    AD.platform_ad_id_hash = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_ad_id_hash\n    AND\n    AD.platform_seat_id = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id\n    AND\n    (   PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.deal_id != 'spotx'\n        OR\n        (\n            (\n                RTB_QUARANTINED.int_value = 1\n                AND\n                AD.status = 1\n            )\n            OR\n            (\n                (\n                    RTB_QUARANTINED.int_value IS NULL\n                    OR\n                    RTB_QUARANTINED.int_value = 0\n                )\n                AND\n                AD.status IN (0, 1)\n            )\n        )\n    )\n)\nLEFT JOIN CPC3.ADVERTISER\n    USING (advertiser_id)\nLEFT JOIN CPC3.PLATFORMS_SEATS\n    ON (PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id = PLATFORMS_SEATS.platform_seat_id)\nLEFT JOIN CPC3.SEAT\n    USING (seat_id)\nINNER JOIN\n    CPC3.DEAL\n    ON (\n        CPC3.DEAL.deal_id = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.deal_id\n        AND\n        CPC3.DEAL.publisher_id = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.publisher_id\n        AND\n        (CPC3.DEAL.deal_id = 'spotx' OR (CPC3.DEAL.deal_demand_source_type = 2 AND CPC3.DEAL.ad_review_enabled = 1))\n        AND CPC3.DEAL.deal_id LIKE '1550%'\n    )\nLEFT JOIN CPC3.PUBLISHER_AD_REVIEW\n    ON (PUBLISHER_AD_REVIEW.platform_ad_id_hash = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_ad_id_hash\n        AND PUBLISHER_AD_REVIEW.platform_seat_id = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id\n        AND PUBLISHER_AD_REVIEW.publisher_id = 68800)\nLEFT JOIN CPC3.PUBLISHER_AD_FILTER_ADVERTISERS\n    ON (PUBLISHER_AD_FILTER_ADVERTISERS.affiliate_id = 68800\n    AND PUBLISHER_AD_FILTER_ADVERTISERS.advertiser_id = AD.advertiser_id)\nWHERE PUBLISHER_AD_FILTER_ADVERTISERS.created_date IS NULL\nAND NOT EXISTS (\n    SELECT 1\n    FROM CPC3.AD_ADOMAINS\n    JOIN CPC3.PUBLISHER_AD_FILTER_HOSTS\n        ON (\n        AD_ADOMAINS.adomain_hash = PUBLISHER_AD_FILTER_HOSTS.host_hash\n    )\n    WHERE \n        AD_ADOMAINS.platform_ad_id_hash = AD.platform_ad_id_hash\n        AND\n        AD_ADOMAINS.platform_seat_id = AD.platform_seat_id\n        AND\n        PUBLISHER_AD_FILTER_HOSTS.affiliate_id = 68800\n)\nAND NOT EXISTS (\n    SELECT 1\n    FROM CPC3.AD_CATEGORIES\n    JOIN CPC3.PUBLISHER_AD_FILTER_ALL_CATEGORIES_VIEW\n        ON (\n        AD_CATEGORIES.taxonomy_node_id = PUBLISHER_AD_FILTER_ALL_CATEGORIES_VIEW.taxonomy_node_id\n    )\n    WHERE\n        AD_CATEGORIES.platform_ad_id_hash = AD.platform_ad_id_hash\n        AND\n        AD_CATEGORIES.platform_seat_id = AD.platform_seat_id\n        AND\n        PUBLISHER_AD_FILTER_ALL_CATEGORIES_VIEW.affiliate_id = 68800\n)\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.bids <> 0\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.publisher_id = 68800\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.timezone = 0\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.date >= '2016-10-21'\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.date <= '2016-10-27'\nAND (PUBLISHER_AD_REVIEW.status = 0 OR PUBLISHER_AD_REVIEW.status IS NULL)\n\nGROUP BY AD.platform_ad_id_hash, AD.platform_seat_id\n\nLIMIT 500",
+			"wrap",
+			"spotx"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY",
+			"SELECT\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_ad_id_hash,\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id,\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.publisher_id,\n    GROUP_CONCAT(DISTINCT PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.deal_id) AS deals,\n    PUBLISHER_AD_REVIEW.status,\n    PUBLISHER_AD_REVIEW.status_reason,\n    PUBLISHER_AD_REVIEW.status_comments,\n    AD.platform_ad_id,\n    IF(PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id = 1, 0, AD.advertiser_id) AS demand_partner_id,\n    AD.status AS ad_status,\n    IF(PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id = 1, 'SpotX', ADVERTISER.advertiser_name) AS demand_partner_name,\n    SEAT.seat_name,\n    MAX(PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.date) AS date,\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.timezone,\n    MAX(PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.modified_date) AS modified_date\nFROM REPORTING.PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY\n\nLEFT JOIN CPC3.AFFILIATE_CONF AS RTB_QUARANTINED ON (\n    PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.publisher_id = RTB_QUARANTINED.affiliate_id\n    AND\n    RTB_QUARANTINED.element = 'rtb_quarantine'\n)\nINNER JOIN CPC3.AD USE INDEX(ad_review) ON (\n    AD.platform_ad_id_hash = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_ad_id_hash\n    AND\n    AD.platform_seat_id = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id\n    AND\n    (   PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.deal_id != 'spotx'\n        OR\n        (\n            (\n                RTB_QUARANTINED.int_value = 1\n                AND\n                AD.status = 1\n            )\n            OR\n            (\n                (\n                    RTB_QUARANTINED.int_value IS NULL\n                    OR\n                    RTB_QUARANTINED.int_value = 0\n                )\n                AND\n                AD.status IN (0, 1)\n            )\n        )\n    )\n)\nLEFT JOIN CPC3.ADVERTISER\n    USING (advertiser_id)\nLEFT JOIN CPC3.PLATFORMS_SEATS\n    ON (PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id = PLATFORMS_SEATS.platform_seat_id)\nLEFT JOIN CPC3.SEAT\n    USING (seat_id)\nINNER JOIN\n    CPC3.DEAL\n    ON (\n        CPC3.DEAL.deal_id = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.deal_id\n        AND\n        CPC3.DEAL.publisher_id = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.publisher_id\n        AND\n        (CPC3.DEAL.deal_id = 'spotx' OR (CPC3.DEAL.deal_demand_source_type = 2 AND CPC3.DEAL.ad_review_enabled = 1))\n        AND CPC3.DEAL.deal_id LIKE '1550%'\n    )\nLEFT JOIN CPC3.PUBLISHER_AD_REVIEW\n    ON (PUBLISHER_AD_REVIEW.platform_ad_id_hash = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_ad_id_hash\n        AND PUBLISHER_AD_REVIEW.platform_seat_id = PUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.platform_seat_id\n        AND PUBLISHER_AD_REVIEW.publisher_id = 68800)\nLEFT JOIN CPC3.PUBLISHER_AD_FILTER_ADVERTISERS\n    ON (PUBLISHER_AD_FILTER_ADVERTISERS.affiliate_id = 68800\n    AND PUBLISHER_AD_FILTER_ADVERTISERS.advertiser_id = AD.advertiser_id)\nWHERE PUBLISHER_AD_FILTER_ADVERTISERS.created_date IS NULL\nAND NOT EXISTS (\n    SELECT 1\n    FROM CPC3.AD_ADOMAINS\n    JOIN CPC3.PUBLISHER_AD_FILTER_HOSTS\n        ON (\n        AD_ADOMAINS.adomain_hash = PUBLISHER_AD_FILTER_HOSTS.host_hash\n    )\n    WHERE \n        AD_ADOMAINS.platform_ad_id_hash = AD.platform_ad_id_hash\n        AND\n        AD_ADOMAINS.platform_seat_id = AD.platform_seat_id\n        AND\n        PUBLISHER_AD_FILTER_HOSTS.affiliate_id = 68800\n)\nAND NOT EXISTS (\n    SELECT 1\n    FROM CPC3.AD_CATEGORIES\n    JOIN CPC3.PUBLISHER_AD_FILTER_ALL_CATEGORIES_VIEW\n        ON (\n        AD_CATEGORIES.taxonomy_node_id = PUBLISHER_AD_FILTER_ALL_CATEGORIES_VIEW.taxonomy_node_id\n    )\n    WHERE\n        AD_CATEGORIES.platform_ad_id_hash = AD.platform_ad_id_hash\n        AND\n        AD_CATEGORIES.platform_seat_id = AD.platform_seat_id\n        AND\n        PUBLISHER_AD_FILTER_ALL_CATEGORIES_VIEW.affiliate_id = 68800\n)\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.bids <> 0\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.publisher_id = 68800\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.timezone = 0\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.date >= '2016-10-21'\nAND\nPUBLISHER_AD_BID_ACTIVITY_SUMMARY_DAY.date <= '2016-10-27'\nAND (PUBLISHER_AD_REVIEW.status = 0 OR PUBLISHER_AD_REVIEW.status IS NULL)\n\nGROUP BY AD.platform_ad_id_hash, AD.platform_seat_id\n\nLIMIT 500"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/products/product-list.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								934,
+								934
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/products/product.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/products/product-list.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1100,
+								1100
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SQLExec":
+	{
+		"height": 309.0
+	},
+	"output.SQLExec.errors":
+	{
+		"height": 278.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "HappyTeaTime.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
