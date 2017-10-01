@@ -8,12 +8,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
-var forms_1 = require("@angular/forms");
 var http_1 = require("@angular/http");
+var router_1 = require("@angular/router");
 var app_component_1 = require("./app.component");
-var product_list_component_1 = require("./products/product-list.component");
-var product_filter_pipe_1 = require("./products/product-filter.pipe");
-var star_component_1 = require("./shared/star.component");
+var welcome_component_1 = require("./home/welcome.component");
+var tea_module_1 = require("./products/tea.module");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -23,15 +22,19 @@ AppModule = __decorate([
     core_1.NgModule({
         imports: [
             platform_browser_1.BrowserModule,
-            forms_1.FormsModule,
-            http_1.HttpModule
+            http_1.HttpModule,
+            router_1.RouterModule.forRoot([
+                { path: 'welcome', component: welcome_component_1.WelcomeComponent },
+                { path: '', redirectTo: 'welcome', pathMatch: 'full' },
+                { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
+            ]),
+            tea_module_1.TeaModule
         ],
         declarations: [
             app_component_1.AppComponent,
-            product_list_component_1.ProductListComponent,
-            product_filter_pipe_1.ProductFilterPipe,
-            star_component_1.StarComponent
+            welcome_component_1.WelcomeComponent
         ],
+        providers: [],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

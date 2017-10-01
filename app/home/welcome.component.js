@@ -9,13 +9,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var WelcomeComponent = (function () {
     function WelcomeComponent() {
-        this.pageTitle = 'Welcome';
+        this.pageTitle = 'Welcome to Happy Tea Time with Happy Tea Friends';
     }
     return WelcomeComponent;
 }());
 WelcomeComponent = __decorate([
     core_1.Component({
-        templateUrl: 'app/home/welcome.component.html'
+        templateUrl: 'app/home/welcome.component.html',
+        styleUrls: ['app/home/welcome.component.css']
     })
 ], WelcomeComponent);
 exports.WelcomeComponent = WelcomeComponent;

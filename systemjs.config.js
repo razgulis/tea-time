@@ -24,12 +24,17 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 
       // other libraries
+      'ng2-modal': 'npm:ng2-modal',
       'rxjs': 'npm:rxjs'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
       app: {
         main: './main.js',
+        defaultExtension: 'js'
+      },
+      'ng2-modal': {
+        main: 'index.js',
         defaultExtension: 'js'
       },
       rxjs: {
